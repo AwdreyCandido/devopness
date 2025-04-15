@@ -1,0 +1,17 @@
+{
+  "$schema": "./openapitools.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.12.0",
+    "generators": {
+      "python": {
+        "generatorName": "python",
+        "inputSpec": "./src/api/spec.json",
+        "output": "./src/api/generated",
+        "additionalProperties": {
+          "packageName": "devopness_api_client"
+        }
+      }
+    }
+  }
+}
